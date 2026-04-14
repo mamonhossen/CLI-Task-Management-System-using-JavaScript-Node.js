@@ -63,21 +63,18 @@ MENU SYSTEM (CLI)
 5. Delete Task
 6. Exit
 ================================
-Enter your choice:
+Enter your choice:2
 
-Add Task
-Enter Title: Fix Login Bug
-Enter Description: Login fails on Chrome
-Enter Priority: High
-Enter Due Date: 2026-04-15
-Task added successfully!
-Duplicate Task
-Error: Task with same title and due date already exists.
-View Tasks
-HIGH PRIORITY
-1. [101] Fix Login Bug | Pending | Due: 2026-04-15
+
+1. [101] joining a meeting in USA | about AI seminar in newyork | pending | Due: 2026-05-13
+2. [102] joining a seminar in uk | about sell hiking  | Pending | Due: 2026-04-28
+
 MEDIUM PRIORITY
-2. [102] Update UI | In Progress | Due: 2026-04-20
+
+LOW PRIORITY
+1. [103] woke up | attending a meeting by zoom | Pending | Due: 2026-04-14
+2. [104] meeting for buyer | for garments in india | completed | Due: 2026-01-01
+   
 Delete Task
 Enter Task ID: 101
 Are you sure? (y/n): y
