@@ -1,0 +1,34 @@
+[
+  {
+    "title": "joining a meeting in USA",
+    "description": "about AI seminar in newyork",
+    "priority": "High",
+    "dueDate": "2026-05-13",
+    "id": 101,
+    "status": "pending"
+  },
+  {
+    "title": "joining a seminar in uk",
+    "description": "about sell hiking ",
+    "priority": "High",
+    "dueDate": "2026-04-28",
+    "id": 102,
+    "status": "Pending"
+  },
+  {
+    "title": "woke up",
+    "description": "attending a meeting by zoom",
+    "priority": "Low",
+    "dueDate": "2026-04-14",
+    "id": 103,
+    "status": "Pending"
+  },
+  {
+    "title": "meeting for buyer",
+    "description": "for garments in india",
+    "priority": "Low",
+    "dueDate": "2026-01-01",
+    "id": 104,
+    "status": "completed"
+  }
+]
