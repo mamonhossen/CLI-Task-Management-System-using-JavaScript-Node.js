@@ -54,8 +54,13 @@ FILE STRUCTURE is in bellow
 ├── fileHandler.js
 ├── utils.js
 └── tasks.json
+
+
 MENU SYSTEM (CLI)
+
+
 ========= TASK MANAGER =========
+
 1. Add Task
 2. View Tasks
 3. Search Task
