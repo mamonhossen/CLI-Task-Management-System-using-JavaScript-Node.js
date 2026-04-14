@@ -68,7 +68,10 @@ MENU SYSTEM (CLI)
 5. Delete Task
 6. Exit
 ================================
+
+
 Enter your choice:2
+
 
 
 1. [101] joining a meeting in USA | about AI seminar in newyork | pending | Due: 2026-05-13
