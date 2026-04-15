@@ -5,7 +5,7 @@
     "priority": "High",
     "dueDate": "2026-05-13",
     "id": 101,
-    "status": "pending"
+    "status": ""
   },
   {
     "title": "joining a seminar in uk",
@@ -29,6 +29,14 @@
     "priority": "Low",
     "dueDate": "2026-01-01",
     "id": 104,
-    "status": "completed"
+    "status": "in progress"
+  },
+  {
+    "title": "meeting for software delivery",
+    "description": "Command-Line Interface (CLI) Task Management System using JavaScript ",
+    "priority": "Low",
+    "dueDate": "2026-04-28",
+    "id": 105,
+    "status": "Pending"
   }
 ]

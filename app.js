@@ -43,8 +43,7 @@ function handleMenu(choice) {
         case "3": return searchTaskCLI();
         case "4": return updateStatusCLI();
         case "5": return deleteTaskCLI();
-        case "6":
-            console.log("Goodbye!");
+        case "6": console.log("Goodbye!");
             rl.close();
             break;
         default:
@@ -120,8 +119,8 @@ function searchTaskCLI() {
             console.log("No tasks found.");
         } else {
             results.forEach(t => {
-                console.log(`[${t.id}] ${t.title} | ${t.status} | ${t.priority}`);
-            });
+                    console.log(`[${t.id}] ${t.title} | ${t.description} | ${t.status} | Due: ${t.dueDate}`);
+});
         }
 
         menu();
@@ -134,6 +133,13 @@ function updateStatusCLI() {
         id = Number(id);
 
         rl.question("Enter Status (Pending/In Progress/Completed): ", status => {
+            
+            // ✅ validation has been added for status input
+            if (!status || status.trim() === "") {
+                console.log("Error: Status not entered!, please enter a valid status");
+                return menu();
+            }
+
             try {
                 tasks = updateStatus(tasks, id, status);
                 saveTasks(tasks);
