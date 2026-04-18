@@ -32,14 +32,6 @@
     "status": "in progress"
   },
   {
-    "title": "meeting for software delivery",
-    "description": "Command-Line Interface (CLI) Task Management System using JavaScript ",
-    "priority": "Low",
-    "dueDate": "2026-04-28",
-    "id": 105,
-    "status": "Pending"
-  },
-  {
     "title": "for refreshment",
     "description": "going to switzerland",
     "priority": "Medium",

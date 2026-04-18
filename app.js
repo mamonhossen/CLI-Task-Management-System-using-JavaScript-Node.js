@@ -1,22 +1,22 @@
 // app.js
-const readline = require("readline");
-const { loadTasks, saveTasks } = require("./fileHandler");
-const {
+const readline = require("readline"); // ✅ readline module is imported to handle user input from the command line
+const { loadTasks, saveTasks } = require("./fileHandler"); // ✅ fileHandler module is imported to load and save tasks from/to a JSON file
+const { 
     addTask,
     deleteTask,
     updateStatus,
     searchTasks,
     groupByPriority
-} = require("./taskService");
+} = require("./taskService");// ✅ taskService module is imported to handle core task operations like adding, deleting, updating status, searching, and grouping tasks
 
 const {
     validateTitle,
     validatePriority,
     validateDate,
     formatPriority
-} = require("./utils");
+} = require("./utils");// ✅ utils module is imported to validate user input and format priority values
 
-let tasks = loadTasks();
+let tasks = loadTasks();// ✅ tasks are loaded from the JSON file at the start of the application
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -43,11 +43,11 @@ function handleMenu(choice) {
         case "3": return searchTaskCLI();
         case "4": return updateStatusCLI();
         case "5": return deleteTaskCLI();
-        case "6": console.log("Goodbye!");
+        case "6": console.log("Goodbye! see you next time!");
             rl.close();
             break;
         default:
-            console.log("Invalid choice!");
+            console.log("Invalid choice! please enter a valid number between 1 and 6.");
             menu();
     }
 }
